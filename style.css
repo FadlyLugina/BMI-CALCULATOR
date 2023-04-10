@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    justify-content: center;
+}
+
+body{
+    margin: 100px;
+    padding: 50px;
+    justify-content: center;
+}
+
+#judul{
+    text-align: center;
+}
+
+#judul h1{
+    font-family: 'Fredoka', sans-serif; 
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #2D3844;
+    font-weight: 600;
+}
