@@ -1,4 +1,4 @@
-const form = document.querySelector("#b-form") // mengambil elemen form dengan id "bmi-form"
+const form = document.querySelector("#b-form") // mengambil elemen form dengan id "b-form"
 const weight = document.querySelector("#weight") // mengambil elemen input dengan id "weight"
 const height = document.querySelector("#height") // mengambil elemen input dengan id "height"
 const btnBMI = document.querySelector("#btn-bmi") // mengambil elemen button dengan id "btn-bmi"
