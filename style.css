@@ -5,12 +5,15 @@
     padding: 0;
     width: 1000px;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 body{
     margin: 100px;
+    margin-right: 0;
     padding: 50px;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 #judul{
@@ -20,7 +23,42 @@ body{
 #judul h1{
     font-family: 'Fredoka', sans-serif; 
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 50px;
     color: #2D3844;
     font-weight: 600;
+}
+
+#judul p{
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+input[type=number]{
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 25px;
+    width: 300px;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 12px;
+    padding-left: 10px;
+}
+#form{
+    padding-left: 6.5cm;
+}
+.form{
+    font-family: "Poppins", sans-serif;
+}
+label {
+    font-size: 14px;
+}
+
+#btn-bmi {
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: #6358EC;
 }
