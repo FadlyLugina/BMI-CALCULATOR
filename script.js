@@ -4,7 +4,6 @@ const height = document.querySelector("#height") // mengambil elemen input denga
 const btnBMI = document.querySelector("#btn-bmi") // mengambil elemen button dengan id "btn-bmi"
 const result = document.querySelector("#result") // mengambil elemen dengan id "result" untuk menampilkan hasil BMI
 
-
 btnBMI.addEventListener("click", (event) => { // menambahkan event listener untuk tombol "Hitung BMI" ketika di klik
     event.preventDefault() // mencegah aksi default dari form saat tombol "Hitung BMI" diklik
 
