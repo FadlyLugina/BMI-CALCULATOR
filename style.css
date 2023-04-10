@@ -62,3 +62,7 @@ label {
     border-radius: 4px;
     background-color: #6358EC;
 }
+#result{
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+}
